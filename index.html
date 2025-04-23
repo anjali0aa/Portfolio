@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Piyush L. Shrestha">
+    
+    <!-- IMPORTING CUSTOM STYLES. -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- ICON. -->
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIG4RZLQCCvYzUOzCLUpTWsSgLYhZJwhfxbw&s" />
+    <title>Anjali | Profile</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <section class="nav-contents">
+            <div class="nav-title" onclick="location.reload()">
+               Anjali
+            </div>
+            <div class="nav-items" id="nav-items">
+                <a href="#about">ABOUT</a>
+                <a href="#experience">EXPERIENCE</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#awards">AWARDS & CERTIFICATIONS</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+    </nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <section class="about-contents">
+        <article class="about-description">
+            <h1>Anjali</h1>
+            <h3>Front-End Web Developer | HTML | CSS | JavaScript | Java</h3>
+            <p>
+                I'm Anjali, a creative and detail-oriented front-end web developer with a passion for building intuitive and dynamic user experiences. Whether it's a responsive website or a simple app, I enjoy turning ideas into interactive digital experiences.
+                <blockquote><strong>Skills:</strong> HTML, CSS, JavaScript, Java, Responsive Design, UI/UX Principles, Debugging, Teaching.</blockquote>
+            </p>
+        </article>
+        <div class="about-image">
+            <img src="assets/2ac6df6a-e4c3-408b-b7a2-7ada88b9b4e6.jpg" width="500px" height="600px" alt="Anjali's Profile Picture">
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <section class="experience-contents">
+            <section id="contents-left">
+                <h2 class="contents-title">EXPERIENCE</h2>
+                <section class="experience-items">
+                    <div id="exp-1" class="active" onclick="showExp('exp-1-content')">
+                        <h3>HTML Coding</h3>
+                        <p>Freelancer | 2024 - Ongoing</p>
+                    </div>
+    
+                </section>
+            </section>
+
+            <section id="exp-contents-right">
+                <div id="exp-1-content">
+                    <h2>HTML Coding</h2>
+                    <i>Freelancer | 2024 - Ongoing</i>
+                    <hr />
+                    <p>
+                        Working on HTML coding projects, building responsive websites for various clients.
+                    </p>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <section class="projects-contents">
+            <h2 class="contents-title">PROJECTS</h2>
+            <section class="project-items">
+                <div id="project-1">
+                    <h2>To-Do List App</h2>
+                    <blockquote>HTML, CSS, JS | 2024</blockquote>
+                    <p>
+                        A basic to-do list web app where users can add and remove daily tasks.
+                    </p>
+                    <p><a href="#">Link</a></p>
+                </div>
+                <div id="project-2">
+                    <h2>Simple Calculator</h2>
+                    <blockquote>HTML, CSS, JS | 2024</blockquote>
+                    <p>
+                        A simple calculator for basic arithmetic operations like add, subtract, multiply, and divide.
+                    </p>
+                    <p><a href="#">Link</a></p>
+                </div>
+
+                <div id="project-5">
+                    <h2>Responsive Image Gallery</h2>
+                    <blockquote>HTML, CSS | 2024</blockquote>
+                    <p>
+                        A clean, responsive image gallery layout that adapts to screen sizes.
+                    </p>
+                    <p><a href="#">Link</a></p>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <!-- AWARDS & CERTIFICATIONS -->
+    <section id="awards">
+        <section class="awards-contents">
+            <section id="contents-left">
+                <h2 class="contents-title">AWARDS & CERTIFICATIONS</h2>
+                <section class="awards-items">
+                    <div id="awards-1" class="active" onclick="showAwards('awards-1-content')">
+                        <h3>Hackathon - Best Creative Idea in Smart College</h3>
+                        <p>HSMSS | 2024</p>
+                    </div>
+                </section>
+            </section>
+            <section id="awards-contents-right">
+                <div id="awards-1-content">
+                    <h2>Hackathon - Best Creative Idea in Smart College</h2>
+                    <i>HSMSS | 2024</i>
+                    <hr />
+                    <p>
+                        Won the first place in the Hackathon competition with a project for a smart college solution.
+                        <a href="#">Certificate</a>
+                    </p>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <!-- FOOTER/CONTACT -->
+    <footer id="contact">
+        <section class="contact-contents">
+            <div class="contact-links">
+                <h3>LINKS</h3>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#awards">Awards & Certifications</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="contact-connect">
+                <h3>CONNECT</h3>
+                <a href="#">Github</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div>
+                <h3>CONTACT</h3>
+                <a href="mailto:anjalipariyar24@gmail.com">Email Me</a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
